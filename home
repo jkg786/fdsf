@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MultiTools Hub - Your One-Stop Tool Collection</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <div class="announcement-content">
+            <span class="announcement-text">🚀 Your Trust Our Aim! 💖 | 🌟 100% Free Tools Collection 🛠️ | 🎉 Premium Quality Results 💎</span>
+        </div>
+    </div>
+
+    <!-- Header Component -->
+    <div id="header"></div>
+
+    <!-- Hero Section -->
+    <div class="container mt-5">
+        <div class="hero-section text-center p-5 position-relative overflow-hidden">
+            <div class="hero-pattern"></div>
+            <div class="hero-content position-relative">
+                <span class="badge bg-white text-primary mb-3 px-3 py-2 rounded-pill">100+ Tools Available</span>
+                <h1 class="display-4 fw-bold mb-4">Your Ultimate Tool Collection</h1>
+                <p class="lead mb-5 text-light">Discover over 100 powerful tools to help you with image processing, calculations, SEO, development, and more.</p>
+                <div class="search-container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <div class="input-group input-group-lg">
+                                <input type="text" class="form-control" placeholder="Search for tools..." id="mainSearch">
+                                <button class="btn btn-light px-4" type="button">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature Items -->
+        <div class="row mt-5 g-4">
+            <div class="col-md-4">
+                <div class="feature-item text-center">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h4>Fast & Efficient</h4>
+                    <p>Lightning-fast tools that work instantly</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-item text-center">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h4>Mobile Friendly</h4>
+                    <p>Works perfectly on all devices</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-item text-center">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h4>Secure & Private</h4>
+                    <p>Your data stays on your device</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Categories Section -->
+        <div class="section-header text-center mt-7">
+            <span class="text-primary fw-semibold mb-2 d-block">EXPLORE OUR TOOLS</span>
+            <h2>Browse by Category</h2>
+            <p>Find the perfect tool for your needs</p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <h3>Image Tools</h3>
+                    <p>Convert, compress, and edit images</p>
+                    <span class="category-arrow"><i class="fas fa-arrow-right"></i></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Calculators</h3>
+                    <p>Mathematical and scientific calculators</p>
+                    <span class="category-arrow"><i class="fas fa-arrow-right"></i></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>SEO Tools</h3>
+                    <p>Optimize your website's visibility</p>
+                    <span class="category-arrow"><i class="fas fa-arrow-right"></i></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Developer Tools</h3>
+                    <p>Code formatters and validators</p>
+                    <span class="category-arrow"><i class="fas fa-arrow-right"></i></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-font"></i>
+                    </div>
+                    <h3>Text Tools</h3>
+                    <p>Text manipulation and formatting</p>
+                    <span class="category-arrow"><i class="fas fa-arrow-right"></i></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-exchange-alt"></i>
+                    </div>
+                    <h3>Converters</h3>
+                    <p>Convert between various formats</p>
+                    <span class="category-arrow"><i class="fas fa-arrow-right"></i></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Popular Tools Section -->
+        <div class="section-header text-center mt-7">
+            <span class="text-primary fw-semibold mb-2 d-block">MOST USED</span>
+            <h2>Popular Tools</h2>
+            <p>Discover our most popular and highly-rated tools</p>
+        </div>
+
+        <div class="row g-4" id="popularTools">
+            <!-- Popular tools will be loaded dynamically -->
+        </div>
+
+        <!-- Newsletter Section -->
+        <div class="newsletter-section">
+            <div class="newsletter-container p-5 text-center position-relative">
+                <div class="newsletter-pattern"></div>
+                <div class="position-relative">
+                    <span class="badge bg-white text-primary mb-3 px-3 py-2 rounded-pill">Stay Connected</span>
+                    <h3 class="mb-4">Never Miss New Tools!</h3>
+                    <p class="mb-4">Subscribe to our newsletter for the latest tools and updates.</p>
+                    <form class="newsletter-form">
+                        <div class="row justify-content-center">
+                            <div class="col-md-8">
+                                <div class="input-group">
+                                    <input type="email" class="form-control form-control-lg" placeholder="Enter your email">
+                                    <button class="btn btn-light px-4 fw-semibold" type="submit">
+                                        Subscribe <i class="fas fa-arrow-right ms-2"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Component -->
+    <div id="footer"></div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html> 
